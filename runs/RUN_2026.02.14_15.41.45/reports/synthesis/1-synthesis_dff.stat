@@ -1,0 +1,23 @@
+
+66. Printing statistics.
+
+=== wallacetree32x32 ===
+
+   Number of wires:               9055
+   Number of wire bits:           9180
+   Number of public wires:           6
+   Number of public wire bits:     131
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               9113
+     $_ANDNOT_                    2625
+     $_AND_                       1459
+     $_NAND_                        39
+     $_NOR_                        815
+     $_NOT_                        230
+     $_ORNOT_                      380
+     $_OR_                         986
+     $_XNOR_                      1161
+     $_XOR_                       1418
+
