@@ -1,0 +1,33 @@
+{
+  "DESIGN_NAME": "wallacetree32x32",
+
+  "VERILOG_FILES": [
+    "dir::src/black_cell.sv",
+    "dir::src/brent_kung_32.sv",
+    "dir::src/brent_kung_64.sv",
+    "dir::src/cla_4bit.sv",
+    "dir::src/cla_16bit.sv",
+    "dir::src/csa_16bit.sv",
+    "dir::src/csa_32bit.sv",
+    "dir::src/csa_64bit.sv",
+    "dir::src/full_adder.sv",
+    "dir::src/half_adder.sv",
+    "dir::src/wallacetree4x4.sv",
+    "dir::src/wallacetree8x8.sv",
+    "dir::src/wallacetree16x16.sv",
+    "dir::src/wallacetree32x32.sv"
+  ],
+
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 25,
+
+  "FP_CORE_UTIL": 40,
+  "PL_TARGET_DENSITY": 0.55,
+
+  "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+
+  "GRT_REPAIR_ANTENNAS": true,
+  "RUN_HEURISTIC_DIODE_INSERTION": true,
+  "DIODE_CELL": "sky130_fd_sc_hd__diode_2",
+  "DIODE_CELL_PIN": "DIODE"
+}
